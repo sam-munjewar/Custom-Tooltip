@@ -68,7 +68,7 @@ background:#000;
 }
 
 [data-toggle="tooltip"]::after {
-    content: attr(title);
+    content: attr(tooltip-title);
     position: absolute;
     left:50%;
     top:-6px;
